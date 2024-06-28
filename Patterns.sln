@@ -11,17 +11,31 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderPattern", "BuilderPa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectPoolPattern", "ObjectPoolPattern\ObjectPoolPattern.csproj", "{D5EABE9D-BDDD-47AF-94D8-0AD3F15A9D0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern", "AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{924FF6F1-62A4-4B4F-A0DD-EE2ECA1C1D06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryPattern", "AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{924FF6F1-62A4-4B4F-A0DD-EE2ECA1C1D06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "BridgePattern\BridgePattern.csproj", "{0E9920AF-F4E2-4E1E-9580-7DAC892FF1BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgePattern", "BridgePattern\BridgePattern.csproj", "{0E9920AF-F4E2-4E1E-9580-7DAC892FF1BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{00D97F31-19BE-4BB5-A10C-0767123930B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{00D97F31-19BE-4BB5-A10C-0767123930B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{FAA56824-0269-4ADE-87ED-0276BCC827B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{FAA56824-0269-4ADE-87ED-0276BCC827B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern", "CompositePattern\CompositePattern.csproj", "{D77C3A17-9822-4D28-87E4-51B4E44AC8AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositePattern", "CompositePattern\CompositePattern.csproj", "{D77C3A17-9822-4D28-87E4-51B4E44AC8AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{FEE73AFC-5E19-40C9-B29B-DEDB92895A72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{FEE73AFC-5E19-40C9-B29B-DEDB92895A72}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{065FDD55-B294-495E-9EC4-2BE8DD42AD5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{F49809D7-E47E-4DC8-8B43-9C5B09626AE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{DE39022B-D687-4208-AEF6-690248444DF5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatePattern", "StatePattern\StatePattern.csproj", "{8485CD54-693C-4F25-80C7-8A2875830551}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorPattern", "MediatorPattern\MediatorPattern.csproj", "{14AB3FBA-27D4-4839-8F2A-03F4970C1630}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibilityPattern", "ChainOfResponsibilityPattern\ChainOfResponsibilityPattern.csproj", "{5578EFC2-20C4-40F0-979F-C23B7AEB6E89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodPattern", "TemplateMethodPattern\TemplateMethodPattern.csproj", "{D8DD2DDB-0F90-4177-8772-F6E431D24049}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +83,34 @@ Global
 		{FEE73AFC-5E19-40C9-B29B-DEDB92895A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEE73AFC-5E19-40C9-B29B-DEDB92895A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEE73AFC-5E19-40C9-B29B-DEDB92895A72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{065FDD55-B294-495E-9EC4-2BE8DD42AD5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{065FDD55-B294-495E-9EC4-2BE8DD42AD5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{065FDD55-B294-495E-9EC4-2BE8DD42AD5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{065FDD55-B294-495E-9EC4-2BE8DD42AD5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F49809D7-E47E-4DC8-8B43-9C5B09626AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F49809D7-E47E-4DC8-8B43-9C5B09626AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F49809D7-E47E-4DC8-8B43-9C5B09626AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F49809D7-E47E-4DC8-8B43-9C5B09626AE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE39022B-D687-4208-AEF6-690248444DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE39022B-D687-4208-AEF6-690248444DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE39022B-D687-4208-AEF6-690248444DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE39022B-D687-4208-AEF6-690248444DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8485CD54-693C-4F25-80C7-8A2875830551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8485CD54-693C-4F25-80C7-8A2875830551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8485CD54-693C-4F25-80C7-8A2875830551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8485CD54-693C-4F25-80C7-8A2875830551}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14AB3FBA-27D4-4839-8F2A-03F4970C1630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14AB3FBA-27D4-4839-8F2A-03F4970C1630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14AB3FBA-27D4-4839-8F2A-03F4970C1630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14AB3FBA-27D4-4839-8F2A-03F4970C1630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5578EFC2-20C4-40F0-979F-C23B7AEB6E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5578EFC2-20C4-40F0-979F-C23B7AEB6E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5578EFC2-20C4-40F0-979F-C23B7AEB6E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5578EFC2-20C4-40F0-979F-C23B7AEB6E89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8DD2DDB-0F90-4177-8772-F6E431D24049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8DD2DDB-0F90-4177-8772-F6E431D24049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8DD2DDB-0F90-4177-8772-F6E431D24049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8DD2DDB-0F90-4177-8772-F6E431D24049}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
